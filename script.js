@@ -2,9 +2,16 @@
 // Activity categories and colors
 const activities = {
     // Productive activities
-    'maths': { name: 'Maths Problems', color: '#3498db', category: 'study', productive: true },
+     'maths': { name: 'Maths Problems', color: '#3498db', category: 'study', productive: true },
+    'mathsLecture': { name: 'Maths Lecture', color: '#3498db', category: 'study', productive: true },
+    'englishProblem': { name: 'English Problem', color: '#2980b9', category: 'study', productive: true },
+
     'english': { name: 'English Lecture', color: '#2980b9', category: 'study', productive: true },
     'reasoning': { name: 'Reasoning Problems', color: '#1abc9c', category: 'study', productive: true },
+    'reasoningLecture': { name: 'Reasoning Lecture', color: '#1abc9c', category: 'study', productive: true },
+    'GS': { name: 'GS Problems', color: '#1abc9c', category: 'study', productive: true },
+    'GSlecture': { name: 'GS Lecture', color: '#1abc9c', category: 'study', productive: true },
+
     'vocab': { name: 'Vocabulary', color: '#16a085', category: 'study', productive: true },
     'idioms': { name: 'Idioms', color: '#27ae60', category: 'study', productive: true },
     'history': { name: 'Modern History', color: '#2ecc71', category: 'study', productive: true },
